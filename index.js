@@ -4,19 +4,19 @@ for (let i = 0; i < n; i++) {
     var c = this.innerText;
     switch (c) {
       case "A":
-        var a1 = new Audio('sounds/1.mp3');
+        var a1 = new Audio('1.mp3');
         a1.play();
         break;
       case "Y":
-        var a2 = new Audio('sounds/2.mp3');
+        var a2 = new Audio('2.mp3');
         a2.play();
         break;
       case "S":
-        var a3 = new Audio('sounds/3.mp3');
+        var a3 = new Audio('3.mp3');
         a3.play();
         break;
       case "E":
-        var a4 = new Audio('sounds/4.mp3');
+        var a4 = new Audio('4.mp3');
         a4.play();
         break;
       default: console.log(c);
